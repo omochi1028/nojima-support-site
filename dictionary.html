@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ノジマ新人サポート</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/dictionary.css">
+
+</head>
+
+<body>
+
+<div class="app">
+
+<header>
+
+    <div class="header-top">
+
+        <img src="../images/nojima-logo2.png" alt="ノジマロゴ" class="logo">
+
+        <div class="icons">
+
+            <button>🔔</button>
+
+            <button>👤</button>
+
+        </div>
+
+    </div>
+
+    <h1>たけのこサポート</h1>
+
+    <div class="search">
+        <input type="text" id="wordSearch" placeholder="キーワードで検索...">
+    </div>
+
+
+    <div class="tags">
+
+        <button>レジ操作</button>
+
+        <button>返品対応</button>
+
+        <button>ポイント</button>
+
+        <button>在庫確認</button>
+
+    </div>
+
+
+
+</header>
+
+<div class="kana-filter">
+    <button data-group="all">すべて</button>
+    <button data-group="あ">あ</button>
+    <button data-group="か">か</button>
+    <button data-group="さ">さ</button>
+    <button data-group="た">た</button>
+    <button data-group="な">な</button>
+    <button data-group="は">は</button>
+    <button data-group="ま">ま</button>
+    <button data-group="や">や</button>
+    <button data-group="ら">ら</button>
+    <button data-group="わ">わ</button>
+</div>
+
+<main class="dictionary-main">
+    <div class="word-list" id="wordList"></div>
+</main>
+
+
+<nav class="bottom-nav">
+
+    <a href="../html/index.html">
+        <span>🏠</span>
+        <p>ホーム</p>
+    </a>
+
+    <a href="../html/dictionary.html">
+        <span>📘</span>
+        <p>用語集</p>
+    </a>
+
+    <a href="#">
+        <span>📘</span>
+        <p>マニュアル</p>
+    </a>
+
+    <a href="#">
+        <span>👤</span>
+        <p>マイページ</p>
+    </a>
+
+</nav>
+
+<script src="../js/common.js"></script>
+
+</div>
+
+<script src="../js/script.js"></script>
+</body>
+

@@ -1,0 +1,73 @@
+.dictionary-main{
+    background: #eef3fb;
+    padding: 20px 16px 120px;
+}
+
+
+.word-list{
+    padding: 0;
+}
+
+.word-card{
+    background: white;
+    border-radius: 18px;
+    padding: 18px;
+    margin-bottom: 14px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.word-card h3{
+    margin: 0 0 8px;
+    color:#1f2c5a;
+    font-size: 17px;
+}
+
+.word-card h3 span{
+    font-size: 13px;
+    color:#6b7280;
+}
+
+.word-card p{
+    margin: 0;
+    color: #4b5563;
+    font-size: 14px;
+}
+
+.word-card.nojima{
+    background:#eaf7ff;
+    border-left:6px solid #005bac;
+}
+
+.page{
+    float:right;
+    font-size:12px;
+    color:#666;
+    font-weight:normal;
+}
+
+.kana-filter{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    padding:16px;
+}
+
+.kana-filter button{
+    border:none;
+    border-radius:20px;
+    padding:8px 14px;
+    background:#dfe7ff;
+    color:#233a8b;
+    cursor:pointer;
+}
+
+.kana-filter button.active {
+    background: #233a8b;
+    color: white;
+}
+
+.kana-filter button {
+    background: #dfe7ff;
+    color: #233a8b;
+    transition: 0.2s;
+}
